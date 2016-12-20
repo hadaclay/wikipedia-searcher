@@ -1,0 +1,121 @@
+body {
+  background-color: #1d50c3;
+}
+
+h1 {
+  color: #f7ffff;
+  font-size: 3em;
+  font-family: 'Droid Serif', serif;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+p {
+  color: #f7ffff;
+  font-size: 1.5em;
+  font-family: 'Droid Serif', serif;
+}
+
+.footer p {
+  padding-top: 55%;
+  font-size: 1.2em;
+}
+
+.footer a {
+  color: #f7695d;
+}
+
+.main-container {
+  padding-top: 33%;
+}
+
+.random-button {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.btn {
+  background: #f7695d;
+  color: #f7ffff;
+  font-family: 'Droid Serif', serif;
+}
+
+.btn:hover {
+  color: #e7eeee;
+}
+
+.results {
+  display: none;
+}
+
+.result {
+  background-color: #f7ffff;
+  padding: 3px 3px 3px 3px;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: 'Droid Serif', serif;
+  padding-left: 20px;
+}
+
+.result p {
+  color: #000;
+  font-size: 1.2em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input[type=search] {
+  background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  margin-bottom: 2%;
+  width: 55px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+input[type=search]:focus {
+  width: 130px;
+  background-color: #fff;
+  border-color: #66CC75;
+  -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+  -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+  box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+
+#search-bar input[type=search] {
+  width: 15px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+
+#search-bar input[type=search]:hover {
+  background-color: #fff;
+}
+
+#search-bar input[type=search]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}

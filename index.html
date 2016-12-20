@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wikipedia Seach</title>
+  <script type="text/javascript" src="./scripts/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="./scripts/index.js"></script>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center main-container">
+        <h1>Wikipedia Search</h1>
+        <div class="random-button">
+          <a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">
+            <button class="btn btn-secondary">Random Article</button>
+          </a>
+        </div>
+        <div id="search-bar">
+          <form id="search-form">
+            <input type="search" name="gsrsearch" />
+          </form>
+        </div>
+      </div>
+      <div class="footer text-center">
+        <p>by <em><a href="https://twitter.com/hadaclay">@hadaclay</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="container results" id="result-container"></div>
+</body>
+</html>
