@@ -2,7 +2,7 @@
 
 A small application that gets search results from the English Wikipedia. Written as a project for FreeCodeCamp.
 
-## [Demo](https://codepen.io/hadaclay/pen/qaRWxA)
+## [Demo](https://codepen.io/hadaclay/full/qaRWxA/)
 
 ### License
 The MIT License (MIT)
